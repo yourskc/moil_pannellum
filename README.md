@@ -15,6 +15,10 @@ https://developers.google.com/streetview/spherical-metadata
 https://pannellum.org/documentation/overview/tutorial/
 把Panorama 放在另外一個資料來源
 
+https://simusurveyx.caece.net/pannellum/toycar.jpg
 
 Apache 中支援CORS
 https://codertw.com/%E4%BC%BA%E6%9C%8D%E5%99%A8/381332/
+
+參考另外一種做法, 基於 Pano2vr :
+http://moil.caece.net/moilweb/
