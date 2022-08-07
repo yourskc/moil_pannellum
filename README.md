@@ -19,6 +19,8 @@ https://simusurveyx.caece.net/pannellum/toycar.jpg
 
 Apache 中支援CORS
 https://codertw.com/%E4%BC%BA%E6%9C%8D%E5%99%A8/381332/
+輸入
+http://moil.caece.net/pannellum/toycar.jpg
 
 參考另外一種做法, 基於 Pano2vr :
 http://moil.caece.net/moilweb/
