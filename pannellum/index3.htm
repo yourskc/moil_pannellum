@@ -7,10 +7,22 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>
     <style>
-    #panorama {
-        width: 800px;
-        height: 600px;
-    }
+ 	
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    cursor: default;
+    width: 100%;
+    height: 100%;
+}	
+	
+	
     </style>
 </head>
 <body>
@@ -20,7 +32,7 @@
 
 pannellum.viewer('panorama', {
     "type": "equirectangular",
-    "panorama": "moil_panorama2_5376.jpg",
+    "panorama": "toycar.jpg",
 	"autoLoad": true
 });
 pannellum.viewer.on('load', function() {
