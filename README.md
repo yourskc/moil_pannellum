@@ -14,24 +14,22 @@ https://developers.google.com/streetview/spherical-metadata
 
 簡單測試
 https://pannellum.org/documentation/overview/tutorial/
-把Panorama 放在另外一個資料來源
+把Panorama 放在另外一個資料來源, 需要在Apache2 中設定CORS
 
-https://simusurveyx.caece.net/pannellum/toycar.jpg
+Demo 網站
+http://moil.caece.net/pannellum/
 
-Apache 中支援CORS
+Apache 支援CORS 參考
 https://codertw.com/%E4%BC%BA%E6%9C%8D%E5%99%A8/381332/
-輸入
-http://moil.caece.net/pannellum/toycar.jpg
-
 
 ** 注意 : 提供 Pannellum 的Panorama 為 Moil Mode 2 (Pitch/ Yaw), 請勿使用 Mode 1 (Pitch/ Roll) 
 
+可以由 qt_mainmoil_cuda 專案 DEBUG mode 在主畫面( Anypoint) 中滑鼠右鍵輸出 Panorama, 或由 moil_httpserver 中輸出，或由 
 
 
+另一種作法，基於 Pano2vr, 因為轉換六面的方式差異較大，目前不採用，僅供參考
 
-另一種作法，可以參考 因為轉換六面的方式差異較大，目前不採用，僅供參考
-
-參考另外一種做法, 基於 Pano2vr :
+Demo ( Endoscope ):
 http://moil.caece.net/moilweb/
 
 ## 2. Demo 
