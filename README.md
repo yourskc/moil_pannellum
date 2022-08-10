@@ -24,7 +24,12 @@ https://codertw.com/%E4%BC%BA%E6%9C%8D%E5%99%A8/381332/
 
 ** 注意 : 提供 Pannellum 的 Panorama 影像為 Moil Mode 2 (Pitch/ Yaw), 請勿使用 Mode 1 (Pitch/ Roll) 
 
-可以由 qt_mainmoil_cuda 專案 DEBUG mode 在主畫面( Anypoint) 中滑鼠右鍵輸出 Panorama, 或由以下專案任一輸出
+可以由以下專案任一輸出 
+### 1. qt_mainmoil_cuda ( https://github.com/yourskc/qt_mainmoil_cuda ) 
+
+DEBUG mode set as true 
+
+Right click on screen ( Anypoint mode ), select "Export Panorama"
 
 ### 1. moil_httpserver ( https://github.com/yourskc/moil_httpserver ) 
 
@@ -36,7 +41,21 @@ https://codertw.com/%E4%BC%BA%E6%9C%8D%E5%99%A8/381332/
 Demo ( Endoscope ):
 http://moil.caece.net/moilweb/
 
-## 2. Demo 
+## 2. How to use
+
+Copy the /pannellum directory of this repo to your Apache2 or NGINX web root directory, ex.
+
+```
+/var/www/html
+```
+
+then browse to
+
+```
+localhost://pannellum
+```
+
+## 3. Demo 
 
 1. MCUT
 
