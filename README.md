@@ -24,14 +24,37 @@ https://codertw.com/%E4%BC%BA%E6%9C%8D%E5%99%A8/381332/
 http://moil.caece.net/pannellum/toycar.jpg
 
 
-這是目前的 alpha/ beta mode 1 的方式所產生之 panorama，
-進入 pannellum 並不正確 
-images/panorama01.jpg
+** 注意 : 提供 Pannellum 的Panorama 為 Moil Mode 2 (Pitch/ Yaw), 請勿使用 Mode 1 (Pitch/ Roll) 
 
 
 
 
-另一種作法，可以參考 因為轉換方式差異較大，目前不採用
+另一種作法，可以參考 因為轉換六面的方式差異較大，目前不採用，僅供參考
 
 參考另外一種做法, 基於 Pano2vr :
 http://moil.caece.net/moilweb/
+
+## 2. Demo 
+
+1. MCUT
+
+<a href="http://moil.caece.net/pannellum/index1.htm"><img src="pannellum/mcut.jpg" width="350px"></a>
+
+2. Latlon_5376 
+
+<a href="http://moil.caece.net/pannellum/index2.htm"><img src="pannellum/latlon_5376.jpg" width="350px"></a>
+
+3. Toycar
+
+<a href="http://moil.caece.net/pannellum/index3.htm"><img src="pannellum/toycar.jpg" width="350px"></a>
+
+4. ALPR
+
+<a href="http://moil.caece.net/pannellum/index4.htm"><img src="pannellum/p1.jpg" width="350px"></a>
+
+
+
+
+
+
+
